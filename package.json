@@ -1,0 +1,28 @@
+{
+  "name": "jbase64",
+  "version": "1.0.0",
+  "description": "A base64 converter, can encode and decode",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BingFengHung/jbase64.git"
+  },
+  "bin": "dist/index.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BingFengHung/jbase64/issues"
+  },
+  "homepage": "https://github.com/BingFengHung/jbase64#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
